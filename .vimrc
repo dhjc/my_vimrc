@@ -28,3 +28,10 @@ set cursorline
 
 " Remap escape to jj
 inoremap jj <esc>
+
+" Turn on search highlighting
+set hls
+
+call plug#begin('~/.vim/plugged')
+  Plug 'preservim/nerdtree'
+call plug#end()
